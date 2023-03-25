@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import { Button } from './Button'
-import { Link } from 'react-router-dom'
-import './Navbar.css'
-import Dropdown from './Dropdown'
+import React, { useState } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+import Dropdown from './Dropdown';
 
 
 
@@ -23,6 +23,27 @@ function NavBar() {
 
   // This function closes the mobile menu by setting 'click' to false
   const closeMobileMenu = () => setClick(false);
+
+
+  // When the mouse hovers over the dropdown menu link, set the dropdown menu
+  const onMouseEnter = () => {
+    
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  }
+
+  // When the mouse hovers pver and leaves the dropdown menu link, hide the dropdown
+  const onMouseLeave = () => {
+
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  }
 
 
 
@@ -58,7 +79,11 @@ function NavBar() {
           </li>
 
           {/* Services Link with Dropdown Menu */}
-          <li className='nav-item'>
+          <li 
+            className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
             <Link 
               to='/services' 
               className='nav-links' 

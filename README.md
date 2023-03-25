@@ -2,6 +2,6 @@
 
 This React project displays a dropdown menu 
 
-It is from the [React Navbar Dropdown Menu Responsive Tutorial] by Brian Design.
+It is from the [React Navbar Dropdown Menu Responsive Tutorial](https://www.youtube.com/watch?v=T2MhVxJxsL0) by Brian Design.
 
-Time: 30:00
+Time: 44:00
