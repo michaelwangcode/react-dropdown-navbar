@@ -15,3 +15,5 @@ Changed the Route syntax from `<Route path="/" component={Home} />` to `<Route p
 
 Added pages for Design and Development.
 
+Added `padding-bottom: 25%` to the mobile `nav-menu` so links are displayed correctly.
+
