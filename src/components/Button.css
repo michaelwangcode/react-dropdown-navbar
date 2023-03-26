@@ -1,10 +1,12 @@
 /* Sign Up Button Styles */
 
+/* Root pesudo-class */
 :root {
   /* Primary button colour variable */
   --primary: #1888ff;
 }
 
+/* Button styles */
 .btn {
   padding: 8px 20px;
   border-radius: 4px;
@@ -16,6 +18,7 @@
   background-color: var(--primary);
 }
 
+/* Button hover styles */
 .btn:hover {
   padding: 6px 18px;
   transition: all 0.3s ease-out;

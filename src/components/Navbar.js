@@ -78,6 +78,7 @@ function NavBar() {
             </Link>
           </li>
 
+
           {/* Services Link with Dropdown Menu */}
           <li 
             className='nav-item'
@@ -96,12 +97,22 @@ function NavBar() {
             {dropdown && <Dropdown />}
           </li>
 
+
+          {/* Products Link */}
+          <li className='nav-item'>
+            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+              Products
+            </Link>
+          </li>
+
+
           {/* Contact Us Link */}
           <li className='nav-item'>
             <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
               Contact Us
             </Link>
           </li>
+
 
           {/* Sign Up Link */}
           <li className='nav-item'>
