@@ -55,7 +55,7 @@ function NavBar() {
 
         {/* Top Left Logo for Navigation Bar */}
         <Link to='/' className='navbar-logo'>
-          HOME
+          HOME <i class='fab fa-firstdraft' />
         </Link>
 
         {/* Icon For Mobile Hamburger Menu */}
@@ -115,11 +115,12 @@ function NavBar() {
 
 
           {/* Sign Up Link */}
-          <li className='nav-item'>
+          <li>
             <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
               Sign Up
             </Link>
           </li>
+
         </ul>
 
         {/* Sign Up Button */}
