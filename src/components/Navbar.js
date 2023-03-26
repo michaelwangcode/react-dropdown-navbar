@@ -55,7 +55,7 @@ function NavBar() {
 
         {/* Top Left Logo for Navigation Bar */}
         <Link to='/' className='navbar-logo'>
-          EPIC
+          HOME
         </Link>
 
         {/* Icon For Mobile Hamburger Menu */}

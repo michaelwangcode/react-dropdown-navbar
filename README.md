@@ -1,7 +1,17 @@
 # React Dropdown Navbar
 
-This React project displays a dropdown menu 
+This React project contains a Navigation Bar with a dropdown menu.
 
 It is from the [React Navbar Dropdown Menu Responsive Tutorial](https://www.youtube.com/watch?v=T2MhVxJxsL0) by Brian Design.
 
-Time: 44:00
+&nbsp;
+
+
+### Code Updates
+
+Changed `Switch` to `Routes` for the latest version of `react-router-dom`.
+
+Changed the Route syntax from `<Route path="/" component={Home} />` to `<Route path='/' element={<Home/>} />`.
+
+Added pages for Design and Development.
+
